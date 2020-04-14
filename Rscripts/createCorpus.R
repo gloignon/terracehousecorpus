@@ -9,7 +9,7 @@ library("data.table")
 # Run the line below if you don't have a udpipe model for the japanese language
 # udpipe_model <- udpipe_download_model(language = "japanese")
 
-udmodel_japanese <- udpipe_load_model(file = "japanese-gsd-ud-2.4-190531.udpipe")
+udmodel_japanese <- udpipe_load_model(file = "./udpipe_models/japanese-gsd-ud-2.4-190531.udpipe")
 
 load("./Parsed_data/dt_subtitles.Rda")
 
